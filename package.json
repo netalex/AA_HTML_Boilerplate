@@ -1,0 +1,24 @@
+{
+  "name": "aa_html_boilerplate",
+  "version": "1.0.0",
+  "description": "my personal static html template from https://wweb.dev/blog/how-to-create-static-website-npm-scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netalex/AA_HTML_Boilerplate.git"
+  },
+  "keywords": [
+    "html",
+    "template",
+    "boilerplate"
+  ],
+  "author": "netalex <aprile.alessandro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netalex/AA_HTML_Boilerplate/issues"
+  },
+  "homepage": "https://github.com/netalex/AA_HTML_Boilerplate#readme"
+}
