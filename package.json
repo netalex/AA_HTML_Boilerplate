@@ -15,7 +15,9 @@
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",
     "watch:images": "onchange \"src/images\" -- yarn run build:images",
     "build:js": "webpack --mode=production",
-    "watch:js": "onchange \"src/js\" -- webpack --mode=development"
+    "watch:js": "onchange \"src/js\" -- webpack --mode=development",
+    "build:html": "posthtml -c posthtml.json",
+    "watch:html": "onchange \"src/views\" -- npm run build:html"
   },
   "repository": {
     "type": "git",
@@ -40,12 +42,16 @@
     "eslint": "^7.12.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-loader": "^4.0.2",
+    "htmlnano": "^0.2.7",
     "imagemin-cli": "^6.0.0",
     "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "postcss": "8.1.0",
     "postcss-cli": "^8.2.0",
+    "posthtml": "^0.13.4",
+    "posthtml-cli": "^0.8.0",
+    "posthtml-modules": "^0.6.2",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0",
     "webpack": "^5.3.2",
