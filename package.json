@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/netalex/AA_HTML_Boilerplate#readme",
   "devDependencies": {
-    "node-sass": "^5.0.0"
+    "autoprefixer": "^10.0.1",
+    "node-sass": "^5.0.0",
+    "postcss-cli": "^8.2.0"
   }
 }
