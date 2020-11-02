@@ -13,7 +13,9 @@
     "serve": "browser-sync start --server \"dist\" --files \"dist\"",
     "watch": "run-p serve watch:css",
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",
-    "watch:images": "onchange \"src/images\" -- yarn run build:images"
+    "watch:images": "onchange \"src/images\" -- yarn run build:images",
+    "build:js": "webpack --mode=production",
+    "watch:js": "onchange \"src/js\" -- webpack --mode=development"
   },
   "repository": {
     "type": "git",
@@ -31,7 +33,9 @@
   },
   "homepage": "https://github.com/netalex/AA_HTML_Boilerplate#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
     "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.1.0",
     "browser-sync": "^2.26.13",
     "imagemin-cli": "^6.0.0",
     "node-sass": "^5.0.0",
@@ -40,6 +44,8 @@
     "postcss": "8.1.0",
     "postcss-cli": "^8.2.0",
     "stylelint": "^13.7.2",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^20.0.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
   }
 }
