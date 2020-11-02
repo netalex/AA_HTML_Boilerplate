@@ -28,6 +28,7 @@
     "autoprefixer": "^10.0.1",
     "node-sass": "^5.0.0",
     "postcss": "8.1.0",
-    "postcss-cli": "^8.2.0"
+    "postcss-cli": "^8.2.0",
+    "stylelint": "^13.7.2"
   }
 }
