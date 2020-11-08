@@ -3931,6 +3931,11 @@ html-tags@^3.1.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
   integrity sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
 
+html5-test-page@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/html5-test-page/-/html5-test-page-0.8.0.tgz#791c3660bac351026d3fbf1e88b73c8a37584e60"
+  integrity sha512-MvSLD0F0cw1KE4RSb6voosgGqooaZx7ZFf39ZUnjECCyAClRxrRoFEhvnzs2yY8ioOLFIoS59K8fBNUwTs7pSg==
+
 htmlnano@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/htmlnano/-/htmlnano-0.2.7.tgz#8d116750c15571687edf56069a7819d41925bdcb"

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp node_modules/html5-test-page/index.html ./test.html",
     "clean": "rimraf dist/*",
     "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
     "css:scss": "node-sass --output-style compressed -o dist src/scss",
@@ -58,5 +59,8 @@
     "stylelint-config-standard": "^20.0.0",
     "webpack": "^5.3.2",
     "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "html5-test-page": "^0.8.0"
   }
 }
