@@ -15,7 +15,8 @@
     "build:html": "posthtml -c posthtml.json",
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",
     "build": "run-s build:*",
-    "serve": "browser-sync start --server \"dist\" --files \"dist\"",
+    "dev": "webpack serve",
+    "serve": "webpack && yarn run dev",
     "watch:css": "onchange \"src/scss\" -- yarn run build:css",
     "watch:html": "onchange \"src/views\" -- yarn run build:html",
     "watch:images": "onchange \"src/images\" -- yarn run build:images",
@@ -59,7 +60,8 @@
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0",
     "webpack": "^5.3.2",
-    "webpack-cli": "^4.1.0"
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "browserslist": "^4.14.6",
