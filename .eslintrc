@@ -19,7 +19,8 @@
         "quotes": [
             "error",
             "double"
-        ]
+        ],
+        "linebreak-style": ["error", "windows"]
     },
     "extends": "airbnb-base"
 }
