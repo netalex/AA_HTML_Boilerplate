@@ -62,6 +62,7 @@
   },
   "dependencies": {
     "browserslist": "^4.14.6",
+    "eslint-plugin-import": "^2.22.1",
     "html5-test-page": "^0.8.0"
   },
   "browserslist": [
